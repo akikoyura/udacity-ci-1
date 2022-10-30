@@ -36,7 +36,7 @@ jobs:
 workflow:
   hoangmh1_workflow:
     jobs:
-      - build:
+      - build
       - test:
           requires:
             - build
