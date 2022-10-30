@@ -33,7 +33,7 @@ jobs:
 #            - "npm-packages"
 #      - run: npm audit
 
-workflow:
+workflows:
   hoangmh1_workflow:
     jobs:
       - build
